@@ -1,15 +1,16 @@
+# jr (json repl)
+
+This is half of a project; current status is that you can pipe JSON to stdin,
+then inspect/view the contents. After quiting, the JSON is printed to stdout.
+
+The eventual goal is to let you modify the JSON & have the results output for
+additional processing.
+
 # Building & Install
 
 - Install nim (https://nim-lang.org/)
 - Run `nimble build` from the repository root
 - Add the executable to your path
-
-# About
-
-This is half of a project; current status is that you can pipe JSON to stdin,
-then inspect/view the contents. After quiting, the JSON is printed to stdout.
-
-The goal is to let you modify the JSON from the repl & have that get output.
 
 # Synopsis
 
